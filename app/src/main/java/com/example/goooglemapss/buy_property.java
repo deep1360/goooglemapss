@@ -150,21 +150,12 @@ public class buy_property extends AppCompatActivity
             Intent i = new Intent(getApplicationContext(),Sell_Property.class);
             startActivity(i);
 
-        } else if (id == R.id.nav_rent) {
-            finish();
-            Intent i = new Intent(getApplicationContext(),Rent_property.class);
-            startActivity(i);
-
         }
     }
     @Override
     public void onClick(View v) {
 
-        if(v==property1||v==property2||v==property3||v==property4||v==property5||v==property6||v==property7||v==property8)
-        {
-            Intent i = new Intent(getApplicationContext(),Gallery1.class);
-            startActivity(i);
-        }
+
         if(v==loc1)
         {
             Intent i = new Intent(getApplicationContext(),Location.class);
