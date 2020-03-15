@@ -18,11 +18,11 @@ public class Welcome_Page extends AppCompatActivity implements View.OnClickListe
 
         buy = findViewById(R.id.buy);
         sell = findViewById(R.id.sell);
-        rent = findViewById(R.id.rent);
+
 
         sell.setOnClickListener(this);
         buy.setOnClickListener(this);
-        rent.setOnClickListener(this);
+
 
     }
     @Override
@@ -32,14 +32,8 @@ public class Welcome_Page extends AppCompatActivity implements View.OnClickListe
             Intent i = new Intent(getApplicationContext(),buy_property.class);
             startActivity(i);
         }
-        if(v==sell)
-        {
+        if(v==sell) {
             Intent i = new Intent(getApplicationContext(), Sell_Property.class);
-            startActivity(i);
-        }
-        if(v==rent)
-        {
-            Intent i = new Intent(getApplicationContext(), Rent_property.class);
             startActivity(i);
         }
     }

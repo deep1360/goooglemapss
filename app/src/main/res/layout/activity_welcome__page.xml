@@ -61,17 +61,6 @@
                     android:text="Sell"
                     android:textColor="@color/white" />
 
-                <Button
-                    android:id="@+id/rent"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="50dp"
-                    android:background="@drawable/button_shape"
-                    android:gravity="center"
-                    android:text="Rent"
-                    android:textColor="@color/white" />
-
 
             </LinearLayout>
 
