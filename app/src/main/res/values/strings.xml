@@ -21,4 +21,6 @@
     <string name="menu_send">Send</string>
     <string name="title_activity_rent_property">Rent Property</string>
     <string name="title_activity_location">Property Location</string>
+
+    <string name="home_second">Home Second</string>
 </resources>
