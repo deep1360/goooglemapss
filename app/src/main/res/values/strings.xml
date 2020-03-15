@@ -23,4 +23,5 @@
     <string name="title_activity_location">Property Location</string>
 
     <string name="home_second">Home Second</string>
+    <string name="title_activity_rent__property">Rent_Property</string>
 </resources>

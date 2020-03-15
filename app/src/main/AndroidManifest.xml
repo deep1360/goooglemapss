@@ -10,9 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Rent_Property"
+            android:label="@string/title_activity_rent__property"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Sell_Property"
+            android:label="@string/title_activity_sell__property"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".buy_property"
             android:label="@string/title_activity_buy_property"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Welcome_Page">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
