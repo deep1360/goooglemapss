@@ -151,6 +151,9 @@ public class buy_property extends AppCompatActivity
             startActivity(i);
 
         }
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
     }
     @Override
     public void onClick(View v) {
